@@ -1,37 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: user <user@mail.be>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/28 21:48:31 by user              #+#    #+#             */
-/*   Updated: 2026/07/29 01:10:27 by user             ###   ########.fr       */
+/*   Created: 2026/07/28 23:24:47 by user              #+#    #+#             */
+/*   Updated: 2026/07/28 23:40:05 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-void	ft_putchar(char c);
-void	ft_ft(int *nbr);
-void	ft_swap(int *a, int *b);
-void	ft_div_mod(int a, int b, int *div, int *mod);
-
-int	main(void)
+void	ft_ft(int *nbr)
 {
-	int	i;
-	int	j;
-
-	int	_div;
-	int	_mod;
-
-	i = 15;
-	j = 7;
-
-	ft_div_mod(i, j, &_div, &_mod);
-	printf("%d %d", _div, _mod);
-
-	
-
-	return (0);
+	*nbr = 42;
 }

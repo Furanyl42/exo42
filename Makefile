@@ -2,7 +2,7 @@
 NAME = test_putchar
 
 # Fichiers sources C à compiler
-SRCS = ft_putchar.c main.c
+SRCS = ft_div_mod.c ft_swap.c ft_ft.c ft_putchar.c main.c
 
 # Compilateur et flags obligatoires 42
 CC = gcc
