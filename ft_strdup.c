@@ -6,7 +6,7 @@
 /*   By: user <user@mail.be>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/29 20:36:18 by user              #+#    #+#             */
-/*   Updated: 2026/07/29 21:55:10 by user             ###   ########.fr       */
+/*   Updated: 2026/07/29 22:32:42 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@ int	ft_strlen(char *str);
 
 char	*ft_strdup(char *src)
 {
-	int	size;
+	int		i;	
+	int		size;
 	char	*str_pt;
-	int	i;	
 
 	i = 0;
 	size = ft_strlen(src) + 1;
