@@ -1,30 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: user <user@mail.be>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/28 21:48:31 by user              #+#    #+#             */
-/*   Updated: 2026/07/29 20:12:57 by user             ###   ########.fr       */
+/*   Created: 2026/07/29 19:40:00 by user              #+#    #+#             */
+/*   Updated: 2026/07/29 20:14:40 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+void	ft_putchar(int c);
 
-void	ft_putchar(char c);
-void	ft_ft(int *nbr);
-void	ft_swap(int *a, int *b);
-void	ft_div_mod(int a, int b, int *div, int *mod);
-int	ft_strlen(char *str);
-void	ft_putstr(char *str);
-
-int	main(void)
+void	ft_putstr(char *str)
 {
-	char *mystring;
+	int	i;
 
-	mystring = "salut";
-	ft_putstr(mystring);
-	ft_putchar('\n');
-	return (0);
+	i = 0;
+	while (str[i] != '\0')
+	{
+		ft_putchar(str[i]);
+		i++;
+	}
 }

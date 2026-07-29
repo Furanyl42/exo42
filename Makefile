@@ -1,8 +1,8 @@
 # Nom de l'exécutable final
-NAME = test_putchar
+NAME = test
 
 # Fichiers sources C à compiler
-SRCS = ft_div_mod.c ft_swap.c ft_ft.c ft_putchar.c main.c
+SRCS = ft_putstr.c ft_strlen.c ft_div_mod.c ft_swap.c ft_ft.c ft_putchar.c main.c
 
 # Compilateur et flags obligatoires 42
 CC = gcc
